@@ -1,0 +1,607 @@
+.gird-system{
+    background-color: black;
+    text-decoration: none;
+}
+.gird-system p{
+    color: white;
+}
+.right{
+    text-align:center;
+}
+.login-top{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    justify-content: center;
+}
+.logo{
+    flex: 1;
+    line-height: 100px;
+    margin: auto;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+    margin-left: 80px;
+    
+}
+.main-menu {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.main-menu ul li{
+    padding: 0px 15px;
+}
+.main-menu ul li a:hover{
+    color: cadetblue;
+}
+.footer-menu{
+    flex: 1;
+   text-align: center;
+}
+.footer-menu i{
+    line-height: 100px;
+    padding: 0px 10px;
+    color: black;
+    font-size: 25px;
+    
+}
+.main-menu ul{
+    display: flex;
+    line-height: 100px;
+    list-style: none;
+}
+.main-menu ul li a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.banner{
+    background-color: antiquewhite;
+}
+.banner img{
+   width: 600px;
+   height: 450px;
+}
+.main-banner{
+    position: relative;
+}
+.title-banner{
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    right: 350px;
+}
+.footer-banner{
+    position: relative;
+    background-color: darkgrey;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
+}
+.footer-banner img{
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.texxt{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    width: 700px;
+}
+.texxt p{
+    width: 500px;
+    margin-left: -50px;
+    padding: 10px;
+}
+.texxt b{
+    font-size: 30px;
+    padding: 15px 10px;
+}
+.texxt span{
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 30px;
+}
+.card{
+    margin: auto !important;
+    text-align: center;
+}
+.sanpham ul{
+    justify-content: center;
+    list-style: none;
+}
+.sanpham ul li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    border-right: 1px solid rebeccapurple;
+}
+#last{
+    border-right: none;
+}
+.views-add {
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    font-weight: bolder;
+}
+.views-add:hover{
+    color: black;
+}
+.icon-box{
+    width: 300px;
+    margin: auto;
+    
+}
+.icon i{
+    font-size: 30px;
+}
+.icon-add{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: black;
+}
+.icon-add:hover{
+    color: black;
+    background-color: gray;
+}
+.footer-head{
+    background-color: beige;
+    padding: 20px 0px;
+}
+.content-banner{
+    background-image: url(/img/diamond-plaza-black.jpg);
+    height: 500px;
+    width: 100%;
+}
+.content-banner-right{
+    height: 500px;
+    background-color: blueviolet !important;
+    position: relative;
+}
+.content-banner-right img{ 
+    top: 200px; 
+    left: 0px;
+    height: 300px;
+    position: absolute;
+}
+
+.lineheight{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+}
+.icon-banner{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+}
+.icon-banner i{
+    font-size: 40px;
+}
+.icon-ads{
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    color:black;
+    background-color: white ;
+    top: 360px;
+    left: 35%;
+}
+.icon-ads i{
+    color: black;
+}
+.icon-ads:hover{
+    background-color: grey;
+}
+
+.content-banner{
+    position: relative;
+}
+.linewith{
+    position: absolute;
+    top:180px;
+    left: 30%;
+    color: white;
+    font-weight: bolder ;
+}
+.linehight{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    color: white;
+    font-size: 55px;
+}
+.banner-add{
+    position: absolute;
+    top: 400px;
+    color: white;
+    left: 30%;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.banner-add:hover{
+    color: gray;
+}
+.main-heard{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.hidden-heard img{
+    height: 80px;
+    width: 80px;
+    background-color: bisque;
+    border-radius: 50%;
+}
+.hidden-heard{
+    text-align: center;
+}
+.footer-heard{
+ width: 600px;
+ margin: auto;
+}
+.hight-heard{
+    font-weight: bolder;
+}
+.last-resort img{
+    width: 300px;
+    height: 400px;
+}
+.last-resort{
+    justify-content: center;
+}
+.btn btn-primary{
+    text-align: right;
+}
+.last-img:hover {    
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.u{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+.firts{
+    
+    width: 100%;
+   
+}
+
+/*
+Giới thiệu
+*/
+.bannerr img{
+   width: 100%;
+   height: 350px;
+}
+.firt-bannerr{
+    position: relative;
+}
+.last-banner{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    font-size: 30px; 
+    color: white;
+}
+.last-banner p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.last-banner b{
+    color: white;
+    text-decoration: none;
+}
+.last-banner b:hover{
+    color:blue;
+}
+.logo-introduce img{
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    
+}
+.firt-introduce{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.icon-add i{
+    font-size: 30px;
+}
+.top-footer{
+    padding: 100px;
+}
+.top-footer-left-icon i{
+    font-size: 40px;
+    margin: auto;
+}
+.top-footer-left-icon{
+    text-align: center;
+}
+.top-footer-left-content{
+    text-align: center;
+}
+.top-footer-left{
+    padding-top: 30px;
+}
+.top-footer-center{
+    margin-top: 30px;
+}
+.top-footer-right{
+    margin-top: 30px;
+    text-align: center;
+}
+.top-footer-right i{
+    font-size: 40px;
+}
+.bg{
+    background-color: rgb(26, 17, 17, 0.80);
+    width: 100%;
+    height: 352px;
+    position: absolute;
+    top: 155px;
+}
+/*
+liên hệ
+*/
+.last-banne-add{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    font-size: 30px; 
+    color: white;
+}
+.contact-left p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.icon-contact-left i{
+    font-size: 25px;
+}
+.icon-contact-left p{
+   padding: 0px 15px;
+   font-size: 15px;
+   font-weight: bolder;
+}.icon-contact-center i{
+    font-size: 25px;
+}
+.icon-contact-center p{
+   padding: 0px 15px;
+   font-size: 15px;
+   font-weight: bolder;
+}
+.icon-contact-right i{
+    font-size: 25px;
+}
+.icon-contact-right p{
+   padding: 0px 15px;
+   font-size: 15px;
+   font-weight: bolder;
+}
+.contact-last p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.contact-fisrt{
+  border: 2px solid black;
+}
+.input-contact-left{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.input-contact-center{
+  text-align: center;
+}
+.input-contact-right input{
+    margin-top: 30px;
+    min-width: 380px;
+    min-height: 60px;
+}
+.button{
+    min-width: 380px;
+    margin-top: 30px;
+}
+/*
+Thương hiệu
+*/
+.last-bannen-add{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    font-size: 30px; 
+    color: white;
+}
+.top-trademark p{
+    padding: 30px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.top-trademark{
+    margin-top: 40px;
+}
+.bootom-trademark{
+    margin-bottom: 80px;
+}
+/*
+Tin tức
+*/
+.content-news li {
+    list-style: none;
+}
+.content-news ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.content-news{
+    border: 2px solid gray;
+}
+.content-news span{
+    margin-left: 30px;
+    font-size: 20px ;
+    font-weight: bolder;
+}
+.text-news{
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.news-right{
+    margin-top: 30px;
+}
+.text-news:hover{
+    color: orange;
+}
+.text-news p{
+    margin-left: 10px;
+}
+.card{
+    height: 500px;
+}
+.news-footer{
+    margin-top: 40px;
+}
+/*
+Thương hiệu
+*/
+.collection p{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.last-collection{
+    justify-content: center;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+.last-collection img{
+    width: 300px;
+    height: 400px;
+}
+.cart-title h2{
+    margin-top: 20px;
+    color: violet;
+    font-family: 'Playfair Display', serif;
+    
+}
+.img-cart-product{
+  text-align: center;  
+  
+}
+
+.big-img-cart{
+    width: 300px;    
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px grey;
+}
+.text-cart-product{
+    font-family: 'Playfair Display', serif;
+    margin-left: 40px;
+}
+.text-cart-product h6{
+    color: grey;
+}
+
+.text-cart-product input{
+    padding: 6px 0px;
+}
+.text-cart-product button{
+    display: block;
+    padding: 5px 30px;
+}
+.text-cart-product h4{
+    margin-top: 15px;
+    color: grey;
+}
+.cart-page {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.total-price {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+/*
+login
+*/
+

@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+.menu{
+    padding: 10px 20px;
+}
+.login{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom: 100px ;
+}
+.login p{
+    margin-top: 10px;
+}
+h2{
+    display: inline-block;
+    color: gray;
+    margin-top: 10px;
+}
+.login input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+.check input{
+    width: 10px;
+    height: 10px;
+    margin-top: 0px;
+}
+.login button{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #167bff;
+    color: white;
+    margin-top: 5px;
+}
+p{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin: 0px;
+}
+.check{
+    float: left;
+    padding-left:40px ;
+}
+.login a{
+    float: right;
+    padding-right: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.home button{
+    color:white;
+}
+.home button:hover{
+    color: black;
+}

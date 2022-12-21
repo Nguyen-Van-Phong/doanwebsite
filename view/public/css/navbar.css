@@ -1,0 +1,46 @@
+.nav{
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.list-menu{
+    display: flex;
+    line-height: 100px;
+}
+.list-menu li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.list-menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.nav-left{
+    line-height: 100px;
+}
+.nav-right{
+    display: flex;
+}
+.cart-icon{
+    line-height: 100px;
+    padding-top: 10px;
+}
+.cart-icon i{
+    font-size: 18px;
+    color: black;
+}
+.search-nav{
+    margin: auto 10px;
+}
+.count-number-cart{
+    text-decoration: none;
+    color: black !important;
+    font-size: 18px;
+}
+a{
+    text-decoration: none !important;
+
+}
